@@ -2,4 +2,4 @@
 # WebApps-F24-Assignment-3
 Assignment 3 - Basic HTML
 
-# Hosted It-[https://veera573026.github.io/44563-webapps-f24-assignment3-final-Veera573026/]
+# Hosted It-[Link](https://veera573026.github.io/44563-webapps-f24-assignment3-final-Veera573026/)

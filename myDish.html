@@ -53,9 +53,17 @@
 <h2>Python Snippet Code</h2>
 <p>Decorator to create a singleton class..</p>
 <pre>
-    Testttttt
-    jjjjj
-	
+    def singleton(myClass):
+	instances = {}
+	def getInstance(*args, **kwargs):
+		if myClass not in instances:
+			instances[myClass] = myClass(*args, **kwargs)
+		return instances[myClass]
+	return getInstance
+
+@singleton
+class TestClass(object):
+	pass 
 </pre>
 <p>You can browse more python snippet codes in the below link test</p>
 <a href = "https://code.pieces.app/collections/python"> Python code Sinippets</a></p>
